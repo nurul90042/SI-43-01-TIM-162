@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('orderkonsuls', function (Blueprint $table) {
             $table->id();
+            $table->string('tipekonsul');
+            $table->string('jeniskeluhan');
+            $table->text('notes');
+            $table->rememberToken();
             $table->timestamps();
         });
     }

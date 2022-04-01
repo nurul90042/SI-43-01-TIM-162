@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('riwayatkonsuls', function (Blueprint $table) {
             $table->id();
+            $table->string('tipelayanan');
+            $table->string('jeniskonsul');
+            $table->string('namadokter');
+            $table->rememberToken();
             $table->timestamps();
         });
     }
