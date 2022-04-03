@@ -47,7 +47,7 @@ https://templatemo.com/tm-568-digimedia
   <!-- ***** Preloader End ***** -->
 
   <!-- Pre-header Starts -->
-  <div class="pre-header">
+  {{-- <div class="pre-header">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-sm-8 col-7">
@@ -66,7 +66,7 @@ https://templatemo.com/tm-568-digimedia
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
   <!-- Pre-header End -->
 
   <!-- ***** Header Area Start ***** -->

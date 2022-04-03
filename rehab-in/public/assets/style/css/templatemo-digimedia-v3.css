@@ -929,7 +929,7 @@ Banner Style
   z-index: 2;
   position: relative;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 35px;
   color: #2a2a2a;
   margin-bottom: 20px;
 }
@@ -947,6 +947,7 @@ Banner Style
 
 .main-banner .right-image img {
   max-width: 593px;
+  border-radius: 30px;
 }
 
 
@@ -1395,15 +1396,15 @@ Free Quote
 */
 
 .free-quote {
-  background-image: url(../images/quote-bg-v3.jpg);
+  /* background-image: url(../images/quote-bg-v3.jpg); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 120px 0px;
+  /* padding: 120px 0px; */
   text-align: center;
   position: relative;
   z-index: 2;
-  margin-top: 130px;
+  /* margin-top: 130px; */
 }
 
 .free-quote .section-heading {
@@ -1422,8 +1423,8 @@ Free Quote
 
 .free-quote form {
   background-color: #fff;
-  display: inline-block;
-  width: 100%;
+  /* display: inline-block; */
+  width: 90%;
   min-height: 80px;
   border-radius: 40px;
   position: relative;
@@ -1455,7 +1456,7 @@ Free Quote
   border-bottom-right-radius: 40px;
   outline: none;
   border: none;
-  margin-left: 30px;
+  margin-left: 100px;
   background-color: #4da6e7;
   font-size: 15px;
   color: #fff;
