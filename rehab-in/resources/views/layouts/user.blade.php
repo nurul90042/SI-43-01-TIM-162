@@ -34,7 +34,7 @@ https://templatemo.com/tm-568-digimedia
 <body>
 
   <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
+  {{-- <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
       <span class="dot"></span>
       <div class="dots">
@@ -43,7 +43,7 @@ https://templatemo.com/tm-568-digimedia
         <span></span>
       </div>
     </div>
-  </div>
+  </div> --}}
   <!-- ***** Preloader End ***** -->
 
   <!-- Pre-header Starts -->
@@ -82,9 +82,12 @@ https://templatemo.com/tm-568-digimedia
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#services">Services</a></li>
-              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#top" class="{{ request()->is('/') ? 'active nav-link' : 'nav-link' }}"
+                href="{{ route('home') }}">Home</a></li>
+              <li class="scroll-to-section"><a href="#services" class="{{ request()->is('/service') ? 'active nav-link' : 'nav-link' }}"
+                href="{{ route('service') }}">Services</a></li>
+              <li class="scroll-to-section"><a href="#about" class="{{ request()->is('/about') ? 'active nav-link' : 'nav-link' }}"
+                href="{{ route('about') }}">About</a></li>
               
               {{-- <li class="scroll-to-section"><a href="#portfolio">Projects</a></li>
               <li class="scroll-to-section"><a href="#blog">Blog</a></li>
