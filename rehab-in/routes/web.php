@@ -17,5 +17,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-
+// LANDING PAGE
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/service', [App\Http\Controllers\ServiceController::class, 'index'])->name('service');
+Route::get('/about', [App\Http\Controllers\AboutController::class, 'index'])->name('about');
