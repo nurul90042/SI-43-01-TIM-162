@@ -89,10 +89,12 @@ https://templatemo.com/tm-568-digimedia
               <li class="scroll-to-section"><a href="#about" class="{{ request()->is('/about') ? 'active nav-link' : 'nav-link' }}"
                 href="{{ route('about') }}">About</a></li>
               
+              
               {{-- <li class="scroll-to-section"><a href="#portfolio">Projects</a></li>
               <li class="scroll-to-section"><a href="#blog">Blog</a></li>
               <li class="scroll-to-section"><a href="#contact">Contact</a></li>  --}}
-              <li class="scroll-to-section"><div class="border-first-button"><a href="#contact">Free Quote</a></div></li> 
+              <li class="scroll-to-section"><div class="border-first-button-login"><a href="#contact">Login</a></div></li> 
+              <li class="scroll-to-section"><div class="border-first-button"><a href="#contact">Sign-Up</a></div></li>
             </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>

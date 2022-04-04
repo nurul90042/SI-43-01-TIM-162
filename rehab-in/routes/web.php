@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 // LANDING PAGE
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/service', [ServiceController::class, 'index'])->name('service');
 
 //User
 Route::get('/user',[UserController::class,'index'])->name('landinguser'); //Londing page user after login
