@@ -1470,14 +1470,14 @@ Portfolio
 */
 
 .our-portfolio {
-  padding-top: 130px;
+  /* padding-top: 130px; */
   overflow: hidden;
   position: relative;
 }
 
 .our-portfolio:before {
   content: '';
-  background-image: url(../images/portfolio-right-dec.jpg);
+  /* background-image: url(../images/portfolio-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1489,7 +1489,7 @@ Portfolio
 
 .our-portfolio:after {
   content: '';
-  background-image: url(../images/portfolio-left-dec.jpg);
+  /* background-image: url(../images/portfolio-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;

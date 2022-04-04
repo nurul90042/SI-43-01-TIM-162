@@ -10,7 +10,7 @@
           <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
             <div class="row">
               <div class="col-lg-12">
-                <h6>Digital Media Agency</h6>
+                <h6>Rehabilitasi di Rehab-IN yuk!</h6>
                 <h2>Rehab-IN mempermudah anda untuk mendapatkan layanan rehabililtasi</h2>
                 <p>This template is brought to you by TemplateMo website. Feel free to use this for a commercial purpose. You are not allowed to redistribute the template ZIP file on any other template website. Thank you.</p>
               </div>
