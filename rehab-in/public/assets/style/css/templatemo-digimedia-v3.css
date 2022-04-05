@@ -1524,7 +1524,7 @@ Portfolio
 
 .our-portfolio .item {
   position: relative;
-  z-index: 222;
+  /* z-index: 222; */
 }
 
 .portfolio-item {

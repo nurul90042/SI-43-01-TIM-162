@@ -31,59 +31,7 @@
               </div>
               </a>  
             </div>
-            <div class="item">
-              <a href="#">
-                <div class="portfolio-item">
-                <div class="thumb">
-                  <img src="{{ asset('assets/style/images/portfolio-01.jpg') }}" alt="">
-                </div>
-                <div class="down-content">
-                  <h4>Website Builder</h4>
-                  <span>Marketing</span>
-                </div>
-              </div>
-              </a>  
-            </div>
-            <div class="item">
-              <a href="#">
-                <div class="portfolio-item">
-                <div class="thumb">
-                  <img src="{{ asset('assets/style/images/portfolio-02.jpg') }}" alt="">
-                </div>
-                <div class="down-content">
-                  <h4>Website Builder</h4>
-                  <span>Marketing</span>
-                </div>
-              </div>
-              </a>  
-            </div>
-            <div class="item">
-              <a href="#">
-                <div class="portfolio-item">
-                <div class="thumb">
-                  <img src="{{ asset('assets/style/images/portfolio-03.jpg') }}" alt="">
-                </div>
-                <div class="down-content">
-                  <h4>Website Builder</h4>
-                  <span>Marketing</span>
-                </div>
-              </div>
-              </a>  
-            </div>
-            <div class="item">
-              <a href="#">
-                <div class="portfolio-item">
-                <div class="thumb">
-                  <img src="{{ asset('assets/style/images/portfolio-04.jpg') }}" alt="">
-                  
-                </div>
-                <div class="down-content">
-                  <h4>Website Builder</h4>
-                  <span>Marketing</span>
-                </div>
-              </div>
-              </a>  
-            </div>
+
           </div>
         </div>
       </div>
