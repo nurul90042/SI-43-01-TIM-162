@@ -87,7 +87,7 @@ https://templatemo.com/tm-568-digimedia
               <li class="scroll-to-section"><a class="{{ request()->is('service') ? 'active nav-link' : 'nav-link' }}"
                 href="{{ route('service') }}">Services</a></li>
               <li class="scroll-to-section"><a class="{{ request()->is('about') ? 'active nav-link' : 'nav-link' }}"
-                href="{{ route('about') }}">About</a></li>
+                href="{{ route('about') }}">Contact Us</a></li>
              
 
               <li class="scroll-to-section"><div class="border-first-button-login"><a href="#contact">Login</a></div></li> 
