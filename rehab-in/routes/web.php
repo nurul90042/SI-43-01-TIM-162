@@ -31,8 +31,8 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 // //User
 // Route::get('/user',[UserController::class,'index'])->name('landinguser'); //Londing page user after login
 // Route::get('/login',[UserController::class,'login'])->name('login'); //Login for user
-// Route::get('/register',[UserController::class,'register'])->name('register'); //Register for user
-// Route::get('/forgetpw',[UserController::class,'forgetpw'])->name('forgetpw'); // Forget password for user
+Route::get('/register',[UserController::class,'register'])->name('register'); //Register for user
+Route::get('/forgetpw',[UserController::class,'forgetpw'])->name('forgetpw'); // Forget password for user
 
 
 // //Admin

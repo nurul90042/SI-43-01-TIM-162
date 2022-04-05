@@ -13,9 +13,9 @@ class UserController extends Controller
         return view('');
     }
     public function register(){
-        return view('');
+        return view('register');
     }
     public function forgetpw(){
-        return view('');
+        return view('user.forgetpw');
     }
 }
