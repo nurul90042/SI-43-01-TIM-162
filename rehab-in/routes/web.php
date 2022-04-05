@@ -30,19 +30,19 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 // //User
 // Route::get('/user',[UserController::class,'index'])->name('landinguser'); //Londing page user after login
-// Route::get('/login',[UserController::class,'login'])->name('login'); //Login for user
+Route::get('/login',[UserController::class,'login'])->name('login'); //Login for user
 Route::get('/register',[UserController::class,'register'])->name('register'); //Register for user
 Route::get('/forgetpw',[UserController::class,'forgetpw'])->name('forgetpw'); // Forget password for user
 Route::get('/user-profile',[UserController::class,'profile'])->name('user-profile'); // Profile manage for user
 
 // //Admin
 // Route::get('/admin',[AdminController::class, 'index'])->name('landingadmin'); //Landing page for admin
-// Route::get('',[AdminController::class,'login'])->name('login'); //Login for 
-// Route::get('',[AdminController::class,'register'])->name('register'); //Register for 
-// Route::get('',[AdminController::class,'forgetpw'])->name('forgetpw'); // Forget password for 
+// Route::get('',[AdminController::class,'login'])->name('login'); //Login for
+// Route::get('',[AdminController::class,'register'])->name('register'); //Register for
+// Route::get('',[AdminController::class,'forgetpw'])->name('forgetpw'); // Forget password for
 
 // //Dokter
 // Route::get('/dokter',[DokterController::class, 'index'])->name('landingdokter'); //Landing page for Dokter
-// Route::get('',[DokterController::class,'login'])->name('login'); //Login for 
-// Route::get('',[DokterController::class,'register'])->name('register'); //Register for 
-// Route::get('',[DokterController::class,'forgetpw'])->name('forgetpw'); // Forget password for 
+// Route::get('',[DokterController::class,'login'])->name('login'); //Login for
+// Route::get('',[DokterController::class,'register'])->name('register'); //Register for
+// Route::get('',[DokterController::class,'forgetpw'])->name('forgetpw'); // Forget password for
