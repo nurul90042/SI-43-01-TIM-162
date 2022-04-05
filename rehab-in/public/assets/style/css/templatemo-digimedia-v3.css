@@ -1532,6 +1532,11 @@ Portfolio
   padding: 80px 0 0 30px;
 }
 
+.label-profile{
+  text-align: left;
+  font-weight: bold;
+}
+
 .img-forgetpw{
   padding: 30px;
 }

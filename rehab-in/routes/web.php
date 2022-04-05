@@ -33,7 +33,7 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 // Route::get('/login',[UserController::class,'login'])->name('login'); //Login for user
 Route::get('/register',[UserController::class,'register'])->name('register'); //Register for user
 Route::get('/forgetpw',[UserController::class,'forgetpw'])->name('forgetpw'); // Forget password for user
-
+Route::get('/user-profile',[UserController::class,'profile'])->name('user-profile'); // Profile manage for user
 
 // //Admin
 // Route::get('/admin',[AdminController::class, 'index'])->name('landingadmin'); //Landing page for admin

@@ -18,4 +18,7 @@ class UserController extends Controller
     public function forgetpw(){
         return view('user.forgetpw');
     }
+    public function profile(){
+        return view('user.user-profile');
+    }
 }
