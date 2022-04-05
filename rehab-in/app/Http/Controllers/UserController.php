@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -10,10 +11,10 @@ class UserController extends Controller
         return view('user.home');
     }
     public function login(){
-        return view('');
+        return view('user.login');
     }
     public function register(){
-        return view('register');
+        return view('user.register');
     }
     public function forgetpw(){
         return view('user.forgetpw');
