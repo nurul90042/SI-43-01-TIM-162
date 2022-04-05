@@ -3,7 +3,7 @@
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServiceController;
-
+use App\Http\Controllers\AboutController;
 
 use Illuminate\Support\Facades\Route;
 
@@ -26,6 +26,7 @@ use Illuminate\Support\Facades\Route;
 // LANDING PAGE
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/service', [ServiceController::class, 'index'])->name('service');
+Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 // //User
 // Route::get('/user',[UserController::class,'index'])->name('landinguser'); //Londing page user after login

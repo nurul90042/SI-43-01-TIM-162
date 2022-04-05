@@ -198,6 +198,8 @@ body {
   margin-bottom: 25px;
 }
 
+
+
 .section-heading h4 em {
   font-style: normal;
   color: #4da6e7;
@@ -1480,6 +1482,12 @@ Free Quote
 Portfolio
 --------------------------------------------- 
 */
+
+.our-tips {
+  padding-top: 130px;
+  overflow: hidden;
+  position: relative;
+}
 
 .our-portfolio {
   /* padding-top: 130px; */

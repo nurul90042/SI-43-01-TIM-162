@@ -51,5 +51,41 @@
   </div>
 </div>
 
+<div id="portfolio" class="our-tips section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+          <h6 style="color: #fff">Tips Kesehatan</h6>
+          <h4 style="width:100%">Hidup lebih sehat dengan<em style="color: #fff"> Rehab-IN</em></h4>
+          <div class="line-dec"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="loop owl-carousel">
+          <div class="item">
+            <a href="#">
+              <div class="portfolio-item">
+              <div class="thumb">
+                <img src="{{ asset('assets/style/images/tip1.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4 style="font-size: 15px">Tips Pola Tidur Paling OKE</h4>
+                {{-- <span>Marketing</span> --}}
+              </div>
+            </div>
+            </a>  
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 @endsection
