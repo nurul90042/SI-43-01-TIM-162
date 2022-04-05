@@ -8,7 +8,7 @@
             <div class="row">
               <div class="col-lg-6">
                   <div class="img-register">
-                        <img src="{{ asset('assets/style/images/login-img.png') }}" alt="">
+                        <img src="{{ asset('assets/style/images/login-img.png') }}" alt="Logo login">
                   </div>
               </div>
               <div class="col-lg-6">
