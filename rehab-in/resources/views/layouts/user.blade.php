@@ -15,7 +15,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    
+
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="{{ asset('assets/style/css/fontawesome.css') }}">
@@ -88,11 +88,11 @@ https://templatemo.com/tm-568-digimedia
                 href="{{ route('service') }}">Services</a></li>
               <li class="scroll-to-section"><a class="{{ request()->is('about') ? 'active nav-link' : 'nav-link' }}"
                 href="{{ route('about') }}">Contact Us</a></li>
-             
 
-              <li class="scroll-to-section"><div class="border-first-button-login"><a href="#contact">Login</a></div></li> 
+
+              <li class="scroll-to-section"><div class="border-first-button-login"><a href="{{ route('login') }}">Login</a></div></li>
               <li class="scroll-to-section"><div class="border-first-button"><a href="{{ route('register') }}">Sign-Up</a></div></li>
-            </ul>        
+            </ul>
             <a class='menu-trigger'>
                 <span>Menu</span>
             </a>
@@ -105,16 +105,16 @@ https://templatemo.com/tm-568-digimedia
   <!-- ***** Header Area End ***** -->
 
   <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-    
+
         @yield('main')
-   
+
   </div>
 
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Copyright © 2022 DigiMedia Co., Ltd. All Rights Reserved. 
+          <p>Copyright © 2022 DigiMedia Co., Ltd. All Rights Reserved.
           <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
         </div>
       </div>
@@ -129,7 +129,7 @@ https://templatemo.com/tm-568-digimedia
   <script src="{{ asset('assets/style/js/animation.js') }}"></script>
   <script src="{{ asset('assets/style/js/imagesloaded.js') }}"></script>
   <script src="{{ asset('assets/style/js/custom.js') }}"></script>
-  
+
 
 </body>
 </html>
