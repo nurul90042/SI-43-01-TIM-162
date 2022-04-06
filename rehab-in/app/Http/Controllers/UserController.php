@@ -20,9 +20,9 @@ class UserController extends Controller
         return view('user.forgetpw');
     }
     public function profile(){
-        return view('user.user-profile');
+        return view('user.profile');
     }
     public function consult(){
-        return view('user.user-consult');
+        return view('user.consult');
     }
 }
