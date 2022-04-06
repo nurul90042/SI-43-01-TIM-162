@@ -1,4 +1,4 @@
-@extends('layouts.user')
+@extends('layouts.homepage')
 
 @section('main')
 
@@ -14,7 +14,7 @@
                 <h2>Rehab-IN mempermudah anda untuk mendapatkan layanan rehabililtasi</h2>
                 <p>This template is brought to you by TemplateMo website. Feel free to use this for a commercial purpose. You are not allowed to redistribute the template ZIP file on any other template website. Thank you.</p>
               </div>
-        
+
                 <div class=" scroll-to-section">
                   <div id="free-quote" class="free-quote">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
@@ -43,7 +43,7 @@
           <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
             <img src=" {{ asset('assets/style/images/img-front-left.png') }}" alt="">
 
-          
+
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@
                 {{-- <span>Marketing</span> --}}
               </div>
             </div>
-            </a>  
+            </a>
           </div>
 
 

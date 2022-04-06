@@ -23,15 +23,15 @@ Table of contents
 12. portfolio
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -135,10 +135,10 @@ img {
   overflow: hidden;
 }
 
-/* 
+/*
 ---------------------------------------------
 global styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -241,10 +241,10 @@ body {
 
 
 
-/* 
+/*
 ---------------------------------------------
 header
---------------------------------------------- 
+---------------------------------------------
 */
 
 .pre-header {
@@ -785,10 +785,10 @@ header
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 preloader
---------------------------------------------- 
+---------------------------------------------
 */
 
 .js-preloader {
@@ -887,10 +887,10 @@ preloader
 
 
 
-/* 
+/*
 ---------------------------------------------
 Banner Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .main-banner {
@@ -975,10 +975,10 @@ Banner Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 About Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 #about {
@@ -1104,8 +1104,8 @@ About Style
   font-weight: 300;
 }
 
-/* This for loop creates the  necessary css animation names 
-Due to the split circle of progress-left and progress right, we must use the animations on each side. 
+/* This for loop creates the  necessary css animation names
+Due to the split circle of progress-left and progress right, we must use the animations on each side.
 */
 .progress[data-percentage="10"] .progress-right .progress-bar {
   animation: loading-1 1.5s linear forwards;
@@ -1231,10 +1231,10 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-bottom: 1em;
 }
 
-/* 
+/*
 ---------------------------------------------
 Services Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .services {
@@ -1412,10 +1412,10 @@ Services Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 Free Quote
---------------------------------------------- 
+---------------------------------------------
 */
 
 .free-quote {
@@ -1486,10 +1486,10 @@ Free Quote
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Portfolio
---------------------------------------------- 
+---------------------------------------------
 */
 
 .our-tips {
@@ -1544,13 +1544,13 @@ Portfolio
 .regist-caption{
   text-align: left;
   color: #4da6e7;
-  
+
 }
 
 .regist-caption p{
   text-align: left;
   color: #2a2a2a;
-  
+
 }
 
 .our-portfolio .section-heading {
@@ -1644,10 +1644,10 @@ Portfolio
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Blog
---------------------------------------------- 
+---------------------------------------------
 */
 
 .blog:before {
@@ -1800,10 +1800,10 @@ Blog
 }
 
 
-/* 
+/*
 ---------------------------------------------
 contact
---------------------------------------------- 
+---------------------------------------------
 */
 
 .contact-us {
@@ -1889,17 +1889,17 @@ form#contact #map iframe {
 }
 
 .fill-form .icon {
-  
+
   text-align: center;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 23px;
   padding: 25px 15px;
-  
+
 }
 
 
 .user-pict .icon {
-  
+
   text-align: left;
   border-radius: 0px 23px 50px 100px;
   padding: 20px 15px 25px 15px;
@@ -1940,12 +1940,12 @@ form#contact #map iframe {
 
 .all-service-get-profile {
   padding: 50px 20px 0;
-  
+
 }
 
 .all-service-get-profile .content{
   padding-top: 10px;
-  
+
 }
 
 .user-profile-content{
@@ -2001,7 +2001,7 @@ form#contact input {
 }
 
 .user-profile-contentslist{
-  text-align: left; 
+  text-align: left;
   margin-left:50px;
   padding-top: 20px;
 }
@@ -2054,24 +2054,41 @@ form#contact button:hover {
   color: #fff!important;
 }
 
-/* 
+/*
 ---------------------------------------------
 Footer Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 footer {
-  background-image: url(../images/footer-bg-v3.jpg);
+  /* background-image: url(../images/footer-bg-v3.jpg); */
+  background-color: #0E8BFF;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 130px;
 }
 
-footer p {
+footer p{
   text-align: center;
-  margin: 20px 0px;
+  margin-bottom: 30px;
   color: #fff;
+}
+footer p1{
+    text-align: left;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+footer h4{
+    text-align: left;
+    margin-top: 30px;
+    color: #fff;
+}
+
+footer h5{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
 }
 
 footer p a {
@@ -2079,10 +2096,10 @@ footer p a {
   transition: all .5s;
 }
 
-/* 
+/*
 ---------------------------------------------
 responsive
---------------------------------------------- 
+---------------------------------------------
 */
 
 @media (max-width: 1200px) {

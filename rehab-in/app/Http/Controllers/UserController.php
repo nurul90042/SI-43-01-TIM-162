@@ -25,5 +25,4 @@ class UserController extends Controller
     public function consult(){
         return view('user.user-consult');
     }
-
 }
