@@ -6,7 +6,6 @@ body{
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   padding: 100px 0 120px 0;
-
 }
 #container{
   width:1140px;
@@ -278,4 +277,8 @@ main footer a{
 ::-moz-selection {
   background: #4da6e7;
   color: #fff !important;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 384dea2f725f9e9d190be06259779df74fb7ae25
