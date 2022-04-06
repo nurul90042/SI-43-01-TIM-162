@@ -22,4 +22,8 @@ class UserController extends Controller
     public function profile(){
         return view('user.user-profile');
     }
+    public function consult(){
+        return view('user.user-consult');
+    }
+
 }

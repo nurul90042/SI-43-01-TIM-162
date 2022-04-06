@@ -2269,3 +2269,12 @@ responsive
     padding: 30px;
   }
 }
+
+/* KONSULTASI-ONLINE */
+.list-doctor{
+  border:  1px #afafaf solid;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 100px;
+
+}
