@@ -16,32 +16,18 @@
           <div class="service-icon">
             <div class="row">
               <div class="col-lg-4">
-                <img style="width: 100%; height:auto;" src="{{ asset('assets/style/images/service1.png') }}" alt="">
+                <img style="width: 100%; height:auto; border-radius:30px;" src="{{ asset('assets/style/images/service1.png') }}" alt="">
             </div>
             <div class="col-lg-4">
               <img style="width: 100%; height:auto; border-radius:30px;" src="{{ asset('assets/style/images/service3.png') }}" alt="">
              </div>
             <div class="col-lg-4">
-              <img style="width: 100%; height:auto;" src="{{ asset('assets/style/images/service2.png') }}" alt="">
+              <img style="width: 100%; height:auto; border-radius:30px;" src="{{ asset('assets/style/images/service2.png') }}" alt="">
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-12">
-        <div class="service-icon">
-          <div class="row">
-            <div class="col-lg-4">
-              <img style="width: 100%; height:auto;" src="{{ asset('assets/style/images/service1.png') }}" alt="">
-          </div>
-          <div class="col-lg-4">
-            <img style="width: 100%; height:auto; border-radius:30px;" src="{{ asset('assets/style/images/service3.png') }}" alt="">
-           </div>
-          <div class="col-lg-4">
-            <img style="width: 100%; height:auto;" src="{{ asset('assets/style/images/service2.png') }}" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
+     
     </div>
    
   </div>

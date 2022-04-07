@@ -16,6 +16,9 @@
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{asset('assets/style/images/favicon-log.png')}}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{asset('assets/style/images/favicon-log.png')}}">
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="{{ asset('assets/style/css/fontawesome.css') }}">
