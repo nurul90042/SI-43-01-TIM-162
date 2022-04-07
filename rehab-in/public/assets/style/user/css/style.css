@@ -8232,11 +8232,11 @@ h1, h2, h3, h4, h5,
           margin-right: 0;
           display: block;
           font-size: 24px; }
-    #sidebar.active .logo {
+    #sidebar.active .logo1 {
       padding: 10px 0; }
     #sidebar.active .footer {
       display: none; }
-  #sidebar .logo {
+  #sidebar .logo1 {
     display: block;
     color: #fff;
     font-weight: 900;
@@ -8245,7 +8245,7 @@ h1, h2, h3, h4, h5,
     -o-transition: 0.3s;
     transition: 0.3s; }
     @media (prefers-reduced-motion: reduce) {
-      #sidebar .logo {
+      #sidebar .logo1 {
         -webkit-transition: none;
         -o-transition: none;
         transition: none; } }
