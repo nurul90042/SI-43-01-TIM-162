@@ -22,7 +22,11 @@
     <link rel="stylesheet" href="{{ asset('assets/style/css/templatemo-digimedia-v3.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/style/css/animated.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/style/css/owl.css') }}">
-  </head>
+
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="{{asset('assets/style/images/favicon-log.png')}}" type="image/x-icon" />
+     <link rel="apple-touch-icon" href="{{asset('assets/style/images/favicon-log.png')}}">
+     
 
 <body>
 
@@ -34,7 +38,7 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="{{ asset('assets/style/images/logo-v3.png') }}" alt="">
+              <img src="{{ asset('assets/style/images/logo-v5.png') }}" alt="">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->

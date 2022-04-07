@@ -1,4 +1,4 @@
-@extends('layouts.user')
+@extends('layouts.homepage')
 
 @section('main')
 <div id="contact" class="contact-us section">
@@ -12,7 +12,7 @@
           </div>
         </div>
         <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
-          <form id="contact" action="" method="post">
+          <form id="contactus" action="" method="post">
             <div class="row">
               <div class="col-lg-12">
                 <div class="contact-dec">
@@ -26,7 +26,7 @@
                 </div>
               </div> --}}
               <div class="col-lg-12">
-                <div class="fill-form">
+                <div class="fill-form-contactus">
                   <div class="row">
                     <div class="col-lg-4">
                       <div class="info-post">
@@ -40,7 +40,7 @@
                       <div class="info-post">
                         <div class="icon">
                           <img src="{{ asset('assets/style/images/email-icon.png') }}" alt="">
-                          <a href="#">our@email.com</a>
+                          <a href="#">rehabin@email.com</a>
                         </div>
                       </div>
                     </div>
@@ -48,16 +48,16 @@
                       <div class="info-post">
                         <div class="icon">
                           <img src="{{ asset('assets/style/images/location-icon.png') }}" alt="">
-                          <a href="#">123 Rio de Janeiro</a>
+                          <a href="#">Bandung, Jawa Barat</a>
                         </div>
                       </div>
                     </div>
                     <div class="col-lg-6">
                       <fieldset>
-                        <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                        <input type="name" name="name" id="name" placeholder="Nama Anda" autocomplete="on" required>
                       </fieldset>
                       <fieldset>
-                        <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                        <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Email Anda" required="">
                       </fieldset>
                       <fieldset>
                         <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on">
@@ -70,7 +70,7 @@
                     </div>
                     <div class="col-lg-12">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="main-button ">Send Message Now</button>
+                        <button type="submit" id="form-submit" class="main-button ">Kirim</button>
                       </fieldset>
                     </div>
                   </div>
