@@ -22,12 +22,12 @@
             <a href="#"><span class="fa fa-home"></span> Home</a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-paper-plane"></span> Contacts</a>
-          </li>
-          {{-- <li>
-              <a href="#"><span class="fa fa-user"></span> About</a>
+            <a href="{{ route('user-consult') }}"><span class="fa fa-paper-plane"></span> Tanya Dokter</a>
           </li>
           <li>
+              <a href="{{ route('user-profile') }}"><span class="fa fa-user"></span> Profile</a>
+          </li>
+          {{-- <li>
             <a href="#"><span class="fa fa-sticky-note"></span> Blog</a>
           </li> --}}
           <li>
@@ -38,7 +38,7 @@
 
         <div class="footer">
         	<p>
-					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+					  &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="icon-heart" aria-hidden="true"></i> by Group 162<a href="https://colorlib.com" target="_blank">Colorlib.com</a>
 					</p>
         </div>
     	</nav>
