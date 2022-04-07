@@ -1516,7 +1516,6 @@ Portfolio
 }
 
 .our-portfolio {
-  /* padding-top: 130px; */
   overflow: hidden;
   position: relative;
 }
@@ -1571,7 +1570,7 @@ Portfolio
 }
 
 .our-portfolio .section-heading {
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .our-portfolio .container-fluid {
@@ -1931,7 +1930,7 @@ form#contactus #map iframe {
 
 .fill-form {
   padding: 80px 60px 80px 30px;
-  
+
 }
 
 .fill-form-contactus {
@@ -2226,19 +2225,19 @@ Footer Style
 footer {
   /* background-image: url(../images/footer-bg-v3.jpg); */
   background-color: #0E8BFF;
-  background-position: center center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 footer p{
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #fff;
 }
 footer p1{
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #fff;
 }
 
@@ -2364,12 +2363,12 @@ responsive
       padding: 8px 12px;
       background-color: #4da6e7;
       border-radius: 18px;
-      
+
     }
     .right-content-top{
       margin:10px 100px 10px 0;
     }
-    
+
 
     .post-item .right-content span.date {
       font-size: 15px;
@@ -2398,7 +2397,7 @@ responsive
 .user-profile-label-p{
   color: #2a2a2a;
 
- 
+
 }
 
 @media (max-width: 767px) {
